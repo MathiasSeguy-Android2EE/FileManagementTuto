@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* <ul>
+* Android Tutorial, An <strong>Android2EE</strong>'s project.</br>
+* Produced by <strong>Dr. Mathias SEGUY</strong> with the smart contribution of <strong>Julien PAPUT</strong>.</br>
+* Delivered by <strong>http://android2ee.com/</strong></br>
+* Belongs to <strong>Mathias Seguy</strong></br>
+* ****************************************************************************************************************</br>
+* This code is free for any usage but can't be distribute.</br>
+* The distribution is reserved to the site <strong>http://android2ee.com</strong>.</br>
+* The intelectual property belongs to <strong>Mathias Seguy</strong>.</br>
+* <em>http://mathias-seguy.developpez.com/</em></br>
+* </br>
+* For any information (Advice, Expertise, J2EE or Android Training, Rates, Business):</br>
+* <em>mathias.seguy.it@gmail.com</em></br>
+* *****************************************************************************************************************</br>
+* Ce code est libre de toute utilisation mais n'est pas distribuable.</br>
+* Sa distribution est reservée au site <strong>http://android2ee.com</strong>.</br>
+* Sa propriété intellectuelle appartient à <strong>Mathias Séguy</strong>.</br>
+* <em>http://mathias-seguy.developpez.com/</em></br>
+* </br>
+* Pour tous renseignements (Conseil, Expertise, Formations J2EE ou Android, Prestations, Forfaits):</br>
+* <em>mathias.seguy.it@gmail.com</em></br>
+* *****************************************************************************************************************</br>
+* Merci à vous d'avoir confiance en Android2EE les Ebooks de programmation Android.
+* N'hésitez pas à nous suivre sur twitter: http://fr.twitter.com/#!/android2ee
+* N'hésitez pas à suivre le blog Android2ee sur Developpez.com : http://blog.developpez.com/android2ee-mathias-seguy/
+* *****************************************************************************************************************</br>
+* com.android2ee.android.tuto</br>
+* 25 mars 2011</br> -->
+<resources>
+	<!--Simple string-->
+	<string name="hello">Hello World, ResourcesTuto!</string>
+	<string name="app_name">ResourcesTuto</string>
+	<string name="simpleString">Good Morning My name is Bond, James Bond</string>
+	<!--String with parameters ($s for string, $d for decimal (any decimal:integer, double, float...)-->
+	<string name="param_message">Hello, i love %1$s, i hate %2$s, i am %3$d years old</string>
+	<string name="spinner">Do you like: </string>
+	<!--String array-->
+	<string-array name="i_like_array">
+		<item>chocolate</item>
+		<item>television</item>
+		<item>internet</item>
+		<item>nicotine</item>
+		<item>hug</item>
+		<item>Santa Claus</item>
+	</string-array>
+	<!--Plurals String-->
+	<plurals name="singleOrPlural">
+		<item quantity="one">I am alone on moon</item>
+		<item quantity="other">I am 6 900 000 000 on earth</item>
+	</plurals>
+	<string name="button">An image on the button</string>
+</resources>
